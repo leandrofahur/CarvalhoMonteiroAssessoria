@@ -47,8 +47,7 @@ const Navbar = () => {
       <NavLink
         to={`${path}`}
         exact={path === "/"}
-        // activeStyle={{ height: "100%", width: "100%" }}
-        activeStyle={{ backgroundColor: "red" }}
+        activeClassName="wobble-ver-left active"
         key={icon}
       >
         <div className={`item`} key={label}>
@@ -90,9 +89,9 @@ const Navbar = () => {
       <div
         ref={width > 760 ? null : menuRef}
         // className="ui top inverted attached menu"
-        className="ui secondary menu"
+        className="ui secondary inverted menu"
       >
-        <NavLink to="/" exact>
+        <NavLink to="/" exact activeStyle={{ backgroundColor: "transparent" }}>
           <div className={`item`}>
             <img src="/images/logo2.png" alt="" />
           </div>

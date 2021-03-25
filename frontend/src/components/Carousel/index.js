@@ -4,8 +4,10 @@ import "./index.css";
 
 const images = [
   "/images/cover1.jpg",
-  "/images/cover2.jpg",
+  // "/images/cover2.jpg",
   "/images/cover3.jpeg",
+  // "/images/cover4.jpeg",
+  "/images/cover5.jpeg",
 ];
 
 const Carousel = ({ logo = null }) => {
