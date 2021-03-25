@@ -88,8 +88,8 @@ const Navbar = () => {
     <nav>
       <div
         ref={width > 760 ? null : menuRef}
-        // className="ui top inverted attached menu"
-        className="ui secondary inverted menu"
+        className="ui top inverted attached menu"
+        // className="ui secondary inverted menu"
       >
         <NavLink to="/" exact activeStyle={{ backgroundColor: "transparent" }}>
           <div className={`item`}>

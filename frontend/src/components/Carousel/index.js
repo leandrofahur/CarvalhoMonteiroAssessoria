@@ -46,7 +46,7 @@ const Carousel = ({ logo = null }) => {
       </div>
     );
   });
-  return <div className="pos">{imageList[current]}</div>;
+  return <div className="ui pos">{imageList[current]}</div>;
 };
 
 export default Carousel;

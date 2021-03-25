@@ -3,12 +3,14 @@ import React from "react";
 import Navbar from "../Navbar";
 import Carousel from "../Carousel";
 
-const Header = () => {
+import "./index.css";
+
+const Header = ({ children }) => {
   return (
-    <home>
+    <header>
       <Navbar />
-      <Carousel></Carousel>
-    </home>
+      {children}
+    </header>
   );
 };
 

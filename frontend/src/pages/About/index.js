@@ -1,15 +1,14 @@
 import React from "react";
 
+import Header from "../../components/Header";
 import Carousel from "../../components/Carousel";
-import Navbar from "../../components/Navbar";
 
 const About = () => {
   return (
     <>
-      <home>
-        <Navbar />
+      <Header>
         <Carousel></Carousel>
-      </home>
+      </Header>
     </>
   );
 };
