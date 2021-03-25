@@ -27,7 +27,7 @@ const Carousel = ({ logo = null }) => {
           <img src={logo} className="pos"></img>
         </i> */}
         <img
-          className="ui fluid image kenburns-top layer"
+          className="ui fluid image kenburns-top"
           src={image}
           key={image}
           alt=""
@@ -44,7 +44,7 @@ const Carousel = ({ logo = null }) => {
       </div>
     );
   });
-  return <div>{imageList[current]}</div>;
+  return <div className="pos">{imageList[current]}</div>;
 };
 
 export default Carousel;
