@@ -1,0 +1,26 @@
+.ui.column {
+  padding: 2rem;
+  margin-top: auto;
+}
+
+.ui.header {
+  color: #fff;
+  text-align: center;
+}
+
+p {
+  padding: 2rem 0rem;
+  color: #fff;
+
+  text-align: justify;
+}
+
+.division {
+  height: 100%;
+  padding: 0rem 2rem;
+  border-left: 3px solid var(--primary-color);
+}
+
+.myImage {
+  text-align: center;
+}
